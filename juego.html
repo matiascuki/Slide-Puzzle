@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+  </head>
+  <body>
+    <div class="col-40">
+
+      <div id="titulo">
+        <h1>The Puzzle game</h1>
+      </div>
+      <div id="instrucciones" class="texto-centrado">
+        <p>How to play</p>
+        <ul id="lista-instrucciones">
+        </ul>
+      </div>
+      <div id="objetivo">
+        <div class="texto-centrado">
+          <p> Solved image</p>
+            <img src="images/final.png" alt="imagenfinal">
+        </div>
+      </div>
+      <div id="ultimo-mov" class="texto-centrado">
+          <p>Last move</p>
+        <div id="flecha" class="texto-centrado">
+        </div>
+      </div>
+
+    </div>
+    <div class="col-60">
+      <div id="juego">
+        <div id="pieza1" class="piezas"><img src="images/10.jpg" alt="pieza1"></div>
+        <div id="pieza2" class="piezas"><img src="images/20.jpg" alt="pieza2"></div>
+        <div id="pieza3" class="piezas"><img src="images/30.jpg" alt="pieza3"></div>
+        <div id="pieza4" class="piezas"><img src="images/40.jpg" alt="pieza4"></div>
+        <div id="pieza5" class="piezas"><img src="images/50.jpg" alt="pieza5"></div>
+        <div id="pieza6" class="piezas"><img src="images/60.jpg" alt="pieza6"></div>
+        <div id="pieza7" class="piezas"><img src="images/70.jpg" alt="pieza7"></div>
+        <div id="pieza8" class="piezas"><img src="images/80.jpg" alt="pieza8"></div>
+        <div id="pieza9" class="piezas"><img src=""></div>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal-content">
+          <span class="close-button">×</span>
+          <h1>Congratulations <br />
+             You've won the game!</h1>
+          <div class="stop-button"></div>
+          <div class="restart-button">Restart</div>
+          <div class="next-button"></div>
+      </div>
+  </div>
+    <div id="footer">
+   <p>Made by Matias Cukierblat</p>
+    </div>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
